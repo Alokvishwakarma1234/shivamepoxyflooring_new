@@ -1,0 +1,85 @@
+SHIVAM EPOXY FLOORING — COMPLIANCE IMPLEMENTATION REVIEW
+Date: 13 November 2026
+Scope: the new custom Sites/Cloudflare website. The old Hostinger site/domain has not been replaced or deleted.
+Status: implemented safeguards and draft policies; NOT a legal certification. Unconfirmed particulars remain visible as placeholders.
+
+DONE
+- Privacy Policy, Terms of Service, Cancellation & Refund Policy, Cookie Policy, B2C Service Terms, B2B Project Terms and Business/Contact page.
+- Permanent compact footer: trading name, supplied address, Business & Contact link and privacy/opt-out links. Unconfirmed legal identity, GST/Udyam particulars remain clearly described on Business & Contact and relevant policies, not as public template placeholders repeated in every footer. No timed hiding of disclosures. The public age-18+ service label has been removed; adult eligibility is limited to bookings/contracts, not browsing. Footer legal navigation uses Terms & Conditions, Privacy Policy and an expandable More policies menu; cookie preferences remain directly accessible. GST status is reported as unregistered, not an exemption; no identifier invented.
+- Necessary enquiry information only: name, phone and service; city, area and notes optional. Redundant preferred-finish field removed. Exact address/photos requested only when needed in the later project discussion.
+- Enquiry checkbox: specific enquiry-contact purpose, with no age declaration. No promotional subscription. Form prepares a message locally; user must send it in WhatsApp/email.
+- Standalone WhatsApp links require a clear external-service consent dialog. Cancel and keyboard Escape available; no marketing opt-in bundled with service contact.
+- Owner photo uploads require publication-rights/permission confirmation. API enforces it. Replaced/reset managed photos are deleted from active R2 storage; media cache reduced to 5 minutes. Historic orphan/default assets/backups still need a retention review.
+- Cookie Accept/Reject/Manage, no pre-ticked optional boxes. No optional trackers configured. Current choices leave analytics/marketing off. Cookie preferences can be reopened from every public-page footer.
+- Correction/deletion and promotional opt-out email links. WhatsApp STOP instructions; business must maintain operational suppression records. No newsletter/marketing automation installed.
+- Included site-visit/transport charges and project-specific 40–80% advance disclosed. Refund rule records supplier-return credits and flags the 10%-of-total-quote deduction for legal review.
+- Waterproofing 2–10-year warranty separated from the owner-confirmed 1–3-year epoxy/PU peeling warranty; B2B DLP remains unresolved. Own preparation/workmanship is not subject to a blanket moisture exclusion; mandatory rights preserved.
+- Product-specific document request links. No fabricated TDS/SDS downloads or test/certification claims.
+- Skip links, visible focus, native keyboard-operable dialogs, links, forms and checkboxes. New policy/consent text and controls use tested AA-contrast colour pairs.
+- Existing content/layout/colours retained except necessary legal additions, consent/field changes, claim notes and accessible small-text adjustments.
+
+THIRD-PARTY / SCRIPT INVENTORY AND RECOMMENDATION
+1. /photo-content.js — first-party saved-photo loader. KEEP as necessary website functionality; reads the same-origin photo manifest. No enquiry submission/tracking.
+2. /compliance.js — first-party consent/preferences and WhatsApp contact dialog. KEEP. Stores only the cookie-choice record; no analytics or advertising SDK.
+3. DM Sans — formerly Google Fonts @import. REMOVED external font requests; KEEP local font files at /assets/fonts/ and the SIL Open Font License (OFL.txt).
+4. Unsplash — unused preconnect REMOVED. Three unused local stock-image assets REMOVED. Do not restore stock/Google images without an appropriate licence and correct description.
+5. Google Analytics, Tag Manager, Meta Pixel, embedded Maps/chat SDK and newsletter provider — NOT FOUND in audited application code. Do not install optional tools without an updated inventory and consent-gated loading where required. Hosting-injected tools have not been independently inventoried.
+6. WhatsApp/Meta — click-through link after enquiry contact consent; not an embedded SDK. KEEP as an optional contact route. Recipient: +91 95698 37456.
+7. Email — mailto handoff, no email SDK/server marketing list in this site. KEEP. Recipient: shivamvish101@gmail.com.
+8. Google Maps, Instagram, Facebook, YouTube — ordinary user-activated links; not embeds. KEEP as links. External destinations use their own policies.
+9. Observed provider cookie: __cf_bm on the hosted response, used for bot/security checks; documented 30-minute inactivity lifetime. Other auth cookies/retention remain to verify. Reference: https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/
+10. OpenAI/ChatGPT Sites identity + Cloudflare Workers/R2/assets — essential hosting, authentication and storage infrastructure. KEEP; verify vendor terms, processing locations, actual cookies, log/back-up retention and access configuration before domain switch.
+
+IMAGES, CLAIMS AND DARK-PATTERN AUDIT
+- No testimonials/review scores, countdowns, fake urgency, pre-ticked optional consent, or forced marketing subscriptions were found in the audited page code.
+- Two industrial hall/workspace illustrations have now been replaced with supplied Pixel-camera originals from the ZIP. The supplied waterproofing collage remains an illustration, not verified completed-project photography; an original waterproofing photo is still needed. Camera metadata or filenames alone do not prove project ownership or customer permission.
+- Permission/licence records for all supplied images, any identifiable people and any customer/site confidentiality remain to be verified by the owner. Original files can include metadata; review this before public publication.
+- Chemical resistance, slip resistance, food-area suitability, ESD and dielectric claims are product/system-specific. Relevant pages now link to a document request and explicitly state that images/generic text are not performance evidence.
+- No actual TDS, SDS or test-report files were supplied for publication. Do not add certification logos or guarantee performance from an image.
+
+CHECKS COMPLETED
+- Local server tests: owner-only access, same-origin writes, mandatory publication permission, format/size checks, persistent manifest/media, restore/deletion and existing route behaviour.
+- Enquiry JavaScript tests: unchecked consent blocks preparation; approved message states enquiry purpose and no promotional subscription; no redundant finish field; optional city/area; consent changes invalidate prepared links.
+- HTML local links/fragment targets, unique IDs, scripts, local font files/licence, no optional pre-ticks or external tracking/font requests.
+- Live HTTP checks passed for all seven policy/business routes, compliance JS/CSS, local font CSS/licence, audit download and photo manifest. Anonymous photo-session response does not permit editing.
+- Actual mobile/keyboard/browser visual verification is still pending: cua_repl.js is not available. Cloud Desktop diagnostics: environment ccarenv_b64_Y2NhcmVudl8zZWFjMWNhYmY0NDg4MTkxYjY5ZTMxYzBiNWYwNTBjNw; remote_desktop enabled=true, state=unknown, environment running/connected. No full WCAG conformance claim is made.
+- The footer gradient has now been darkened within the existing blue palette with owner instruction. Footer text/links have measured normal-text contrast above 4.5:1 against the lightest gradient stop. New legal/footer disclosures retain a dark brand background. Full rendered-page WCAG verification is still pending.
+
+LAWYER / CA / SPECIALIST VERIFICATION REQUIRED
+- Verify Shivam Vishvakarma’s owner-supplied identity and business constitution; no supporting business documents supplied. Udyam is confirmed unregistered; constitution remains pending CA advice.
+- GST registration obligation, invoices, tax collection and record-retention obligations. Not registered does not mean registration is unnecessary.
+- Reasonableness/enforceability of a 10% total-quotation cancellation charge in addition to material/transport deductions; avoid double recovery when materials are returned. Review the confirmed pre-purchase full refund within one week and post-purchase refund within 7–15 working days, including supplier-credit reconciliation.
+- Warranty duration/start/coverage, moisture/surface exclusions, own-workmanship obligations and non-excludable consumer remedies.
+- B2B MSA/work orders, milestones, DLP, shutdown/delay treatment, liability limits, NDA and dispute provisions. Surat jurisdiction cannot remove mandatory consumer forum rights.
+- Product-specific TDS/SDS/test reports, electrical performance design/testing, food-area suitability and safety instructions.
+- Site risk assessment, PPE, insurance type/coverage/dates. Insurance is site-specific; no blanket insured claim. ESIC/PF is reported unregistered; applicability and fulfilment of mandatory labour obligations must be resolved before relevant mobilisation.
+- Privacy grievance contact, reasonable operational response targets, retention schedules and processor/log/back-up inventory. Applicable statutory deadlines prevail.
+- DPDP Act/Rules phased commencement, IT Act/rules and consumer-law applicability; do not label the site fully DPDP compliant based on this code update.
+
+PRIMARY REFERENCES REVIEWED
+- DPDP commencement notification: https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf
+- DPDP Rules 2025: https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf
+- Consumer Protection Act 2019: https://www.indiacode.nic.in/bitstream/123456789/15256/5/A2019-35.pdf
+- CGST Act: https://www.indiacode.nic.in/bitstream/123456789/15689/5/A2017-12.pdf
+
+DOMAIN MIGRATION — NOT PERFORMED
+shivamepoxyflooring.com still requires a planned, verified cutover. Obtain Hostinger/domain DNS access and back up the old site, DNS and email records. Do not delete hosting or disturb MX/email records merely to replace the website. No domain change, old-site deletion or Vercel migration was performed by this update.
+
+OWNER-CONFIRMED POLICY UPDATE
+- All seven policy/contact pages clarify that accepted quotation and matching warranty card contain final project-specific commercial/warranty conditions based on site, system, surface, use, area, operating conditions and customer requirements. Agreement is required before payment/work; privacy/cookie obligations and mandatory rights are not overridden. No unilateral reduction of agreed commitments. Lawyer should check contract document consistency and order of precedence.
+- Suitable specification takes priority over unsupported low-budget guarantees; customers may compare preparation, materials and scope. Exact project warranty is recorded in the accepted quotation and matching warranty card. Website ranges are indicative. Inconsistencies require written clarification; later cards cannot unilaterally reduce agreed commitments, and mandatory rights remain unaffected. Lawyer should review the quotation/card template and warranty exclusions.
+- Owner: Shivam Vishvakarma, trading as Shivam Epoxy Flooring; constitution unconfirmed, Udyam unregistered.
+- Epoxy/PU peeling warranty: 1–3 years, exact period/start date in quotation. B2B DLP and liability placeholders retained.
+- B2B: 40% against purchase order, remaining milestones agreed in writing. Delay/shutdown extensions and pre-agreed waiting/revisit costs described; lawyer review required.
+- Before material purchase: full refund within one week. After purchase: 7–15 working days, Bank transfer/UPI; supplier credits reconciled without double recovery. 10% total-quote charge still requires legal review.
+- Grievance: Shivam Vishvakarma, Owner, existing business email. Privacy acknowledgment within 10 working days; eligible deletion/response within 30 days subject to legal exceptions.
+- Enquiry retention remains NOT DECIDED. Planned bills/agreement/tax/legal record retention is 7 years, subject to CA/lawyer verification, not stated as a universal legal requirement. Other eligible data deleted on request.
+- Most regular product documents shared manually on request, subject to exact-product availability; no invented download or verification claims.
+
+ALL UNCONFIRMED PLACEHOLDERS (complete before finalising the relevant business terms)
+1. [B2B DLP DURATION/START/CLAIM PROCESS HERE]
+2. [B2B LIABILITY CAP / EXCLUSIONS TO BE AGREED]
+3. [BUSINESS CONSTITUTION HERE]
+4. [ENQUIRY RETENTION PERIOD HERE]
+5. [HOSTING/AUTH COOKIE INVENTORY TO VERIFY]
+6. [PROVIDER RETENTION TO VERIFY]
