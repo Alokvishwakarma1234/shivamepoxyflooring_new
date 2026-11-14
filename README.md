@@ -55,3 +55,20 @@ Build does not require the separate temporary authoring files used during design
 Keep this source archive private; do not publish it as a public website asset.
 
 This GitHub repository is a source handover/snapshot. The existing Sites hosting repository remains unchanged; automatic synchronization from Sites to GitHub is not configured.
+
+## Vercel static deployment
+
+Import this repository with Root Directory set to the repository root.
+`vercel.json` serves `dist/client` as the static output; no build is required.
+Clean URLs serve the existing HTML service and policy pages.
+
+This makes the public website available on Vercel. It does not migrate the
+Cloudflare Worker/R2 backend or ChatGPT Sites identity. Owner Photo Manager,
+persistent photo uploads and owner source download are unavailable on Vercel
+until secure authentication, API routes and durable storage are implemented.
+The default bundled photos remain available. The current saved-photo loader
+fails gracefully and retains defaults if the API is unavailable. Do not expose
+owner pages or trust client-supplied identity headers as a workaround.
+
+WhatsApp contact and cookie controls are browser-side and remain available.
+Do not put worker/server source or archive assets inside the public output.
